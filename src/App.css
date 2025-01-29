@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "tailwindcss/utilities";
+
+.body {
+  @apply bg-gray-100;
+}
+
+#root {
+  @apply flex flex-col h-screen w-screen;
+}
+
+.bg-modal {
+  background-color: rgba(0,0,0,0.7);
+}
